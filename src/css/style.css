@@ -1,0 +1,6 @@
+.bg {
+    background-image: url(../img/bg.png);
+    background: cover;
+    height: 100vh;
+    position: relative;
+}

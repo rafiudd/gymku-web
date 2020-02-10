@@ -1,6 +1,28 @@
+* {
+    font-family: 'Proxima Nova';
+    margin: 0;
+    padding: 0;
+}
+
 .bg {
     background-image: url(../img/bg.png);
     background: cover;
     height: 100vh;
-    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+.landing {
+    position: relative
+}
+.absolute {
+    top: 0;
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.top-100 {
+    padding-top: 50%
 }

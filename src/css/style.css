@@ -5,8 +5,8 @@
 }
 
 body {
-    margin-bottom: 2000px;
 }
+
 
 @media (min-width: 1200px) {
     .container {
@@ -23,6 +23,8 @@ body {
     padding: 235px 0 82px 0;
     background-color: none !important;
     background-image: url(../img/jumbotron/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%
 }
 
 .jumbotronn h1 {
@@ -121,6 +123,16 @@ body {
     flex-direction: row-reverse;
 }
 
+.hiasan-left {
+    left: -10px !important;
+    margin-left: 0 !important;
+    right: 0 !important;
+}
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
 /* PLAN */
 .plan .title {
     margin-bottom: 219px;
@@ -157,3 +169,38 @@ body {
     padding: 35px 0;
     border-radius: 10px;
 }
+
+/* FOOTER */
+
+footer {
+    /* margin-top: -100px; */
+    background: #08022A;
+    padding: 100px 0 50px 0;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a,
+footer .left p,
+footer .right p,
+footer .right-cp a {
+    color: #878496;
+    font-size: 18px;
+}
+
+footer ul li h5 {
+    font-size: 20px;
+    color: #fff;
+}
+
+footer .left p {
+    line-height: 203%;
+}
+
+footer .right-cp a {
+    margin-left: 23px;
+}
+
+

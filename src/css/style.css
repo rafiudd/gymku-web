@@ -4,25 +4,156 @@
     padding: 0;
 }
 
-.bg {
-    background-image: url(../img/bg.png);
-    background: cover;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: 100%
-}
-.landing {
-    position: relative
-}
-.absolute {
-    top: 0;
-    z-index: 100;
-    position: absolute;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
+body {
+    margin-bottom: 2000px;
 }
 
-.top-100 {
-    padding-top: 50%
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1340px;
+    }
+}
+
+.navbar {
+    padding-top: 20px;
+}
+
+.jumbotronn {
+    margin-top: -110px;
+    padding: 235px 0 82px 0;
+    background-color: none !important;
+    background-image: url(../img/jumbotron/bg.png);
+}
+
+.jumbotronn h1 {
+    font-family: 'proxima_nova_altbold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 100px;
+
+    color: #FFFFFF;
+}
+
+.jumbotronn p {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.jumbotronn form {
+    /* margin-top: -100px; */
+    padding: 30px 32px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.jumbotronn form label {
+    color: #FBFBFB;
+    font-size: 16px;
+}
+
+.jumbotronn form input {
+    height: 50px;
+}
+
+.jumbotronn form h2 {
+    font-family: 'proxima_nova_altbold';
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #FBFBFB;
+}
+
+.jumbotronn form button {
+    font-family: 'proxima_nova_ltsemibold';
+    width: 100%;
+    background: #1FD5EE;
+    box-shadow: 0px 4px 44px rgba(113, 238, 255, 0.35);
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    margin-top: 50px;
+    color: #020304;
+    padding: 14px 0;
+}
+
+/* FITUR */
+.fitur {
+    padding-top: 120px;
+}
+
+.fitur h3 {
+    font-style: normal;
+    font-family: 'proxima_nova_altbold';
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height, or 118% */
+
+    color: #012A40;
+}
+
+.fitur p {
+    font-size: 20px;
+    line-height: 40px;
+    color: #012A40;
+}
+
+.fitur a {
+    font-size: 20px;
+    font-family: 'proxima_nova_altbold';
+
+    color: #1FD5EE;
+}
+
+.fitur .aWrapper:hover {
+    cursor: pointer;
+}
+
+.lele {
+    flex-direction: row-reverse;
+}
+
+/* PLAN */
+.plan .title {
+    margin-bottom: 219px;
+}
+
+.plan h1 {
+    color: #012A40;
+    font-size: 42px;
+    line-height: 40px;
+    font-family: 'proxima_nova_altbold'
+}
+
+.plan p {
+    color: #012A40;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.plan .gambar {
+    margin-bottom: 170px;
+    margin-top: 90px;
+}
+
+/* TESTIMONI */
+
+.testimoni .panah {
+    width: 30px;
+}
+
+.testimoni .img-wrapper {
+    display: flex;
+    justify-content: center;
+    background: #1FD5EE;
+    padding: 35px 0;
+    border-radius: 10px;
 }

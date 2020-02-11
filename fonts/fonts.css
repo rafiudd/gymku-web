@@ -32,7 +32,6 @@
     font-family: 'Proxima Nova';
     src: url('Mark Simonson - Proxima Nova Alt Regular-webfont.eot');
     src: url('Mark Simonson - Proxima Nova Alt Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Mark Simonson - Proxima Nova Alt Regular-webfont.woff2') format('woff2'),
          url('Mark Simonson - Proxima Nova Alt Regular-webfont.woff') format('woff'),
          url('Mark Simonson - Proxima Nova Alt Regular-webfont.ttf') format('truetype'),
          url('Mark Simonson - Proxima Nova Alt Regular-webfont.svg#proxima_nova_altregular') format('svg');
@@ -78,7 +77,6 @@
     font-family: 'proxima_nova_ltthin';
     src: url('Mark Simonson - Proxima Nova Thin-webfont.eot');
     src: url('Mark Simonson - Proxima Nova Thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Mark Simonson - Proxima Nova Thin-webfont.woff2') format('woff2'),
          url('Mark Simonson - Proxima Nova Thin-webfont.woff') format('woff'),
          url('Mark Simonson - Proxima Nova Thin-webfont.ttf') format('truetype'),
          url('Mark Simonson - Proxima Nova Thin-webfont.svg#proxima_nova_ltthin') format('svg');
